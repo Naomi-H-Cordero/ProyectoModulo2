@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(234, 255, 159, 0.966);
+    font-size:large;
+    font-family:cursive;
+}
+button{
+    position:fixed;
+    background-color: aqua;
+    color: black;
+    top:12px;
+    right:15px;
+    font-size:medium;
+    padding: 10px 20px;
+    border-radius:20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    font-size: larger;
+}

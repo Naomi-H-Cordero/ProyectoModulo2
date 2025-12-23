@@ -1,21 +1,60 @@
 body {
-    background-color: rgba(234, 255, 159, 0.966);
-    font-size:large;
-    font-family:cursive;
+    background-color: #0f0611;
+    color: whitesmoke;
+    font-size:larger;
+    font-family:Arial, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    background-color: #ac7aa4;
+    width: 900px;
+    margin-inline: 200px;
 }
 button{
     position:fixed;
-    background-color: aqua;
+    background-color:#e36bf3;
     color: black;
     top:12px;
     right:15px;
     font-size:medium;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius:20px;
-    border: none;
     cursor: pointer;
+    border: 3px whitesmoke solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
 }
 button:hover{
-    background-color: blue;
+    background-color: #c28ec9;
+    color:whitesmoke;
+    font-size:small;
+    border-radius: 40px;
+}
+.tarjeta{
+    background-color: #9700dd;
+    color:azure;
+    padding:20px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    width: 500px;
+}
+img{
+    width: 200px;
+    border:3px black solid;
+}
+.info{
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;
     font-size: larger;
+}
+.precios{
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:1200;
+    font-size: xx-large;
 }

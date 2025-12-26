@@ -5,6 +5,11 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
 }
+#barra-de-navegacion{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
 h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -15,6 +20,9 @@ h1{
     margin-inline: 200px;
     position: sticky;
     top: 0px;
+}
+h2{
+    text-align: center;
 }
 #nombre{
     font-family:"Happy Monkey", system-ui, arial, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,15 +54,16 @@ button:hover{
     padding: 10px;
     border-radius: 20px;
     box-sizing:border-box;
-    width: 520px;
+    width: 600px;
     margin-bottom: 40px;
+    font-size: large;
 }
 img{
     width: 200px;
     height:220px;
     border:3px #0f0611 solid;
     position: relative;
-    left:28px;
+    left: 28px;
 }
 .info{
     color:whitesmoke;
@@ -74,4 +83,28 @@ img{
     font-style: oblique;
     position: relative;
     left:28px;
+}
+#redes-sociales{
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing:border-box;
+    width: 400px;
+    margin-bottom: 40px;
+    font-size: medium;
+    background-color:#ac7aa4;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
+    justify-content: center;
+}
+#contenedor-de-tarjetas-tradicional{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#contenedor-de-tarjetas-digital{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

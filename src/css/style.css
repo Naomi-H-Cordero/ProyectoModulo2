@@ -8,7 +8,20 @@ body {
 #barra-de-navegacion{
     background-color: whitesmoke;
     display: flex;
-    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+}
+#uno{
+    flex-grow: 1;
+}
+#dos{
+    flex-grow: 1;
+}
+#tres{
+    flex-grow: 1;
+}
+#cuatro{
+    flex-grow: 0;
 }
 h1{
     text-align: center;
@@ -18,8 +31,6 @@ h1{
     background-color: #ac7aa4;
     width: 900px;
     margin-inline: 200px;
-    position: sticky;
-    top: 0px;
 }
 h2{
     text-align: center;
@@ -62,6 +73,7 @@ img{
     width: 200px;
     height:220px;
     border:3px #0f0611 solid;
+    position: center;
     position: relative;
     left: 28px;
 }
@@ -107,4 +119,9 @@ img{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+#contenedor-tarjeta-redes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

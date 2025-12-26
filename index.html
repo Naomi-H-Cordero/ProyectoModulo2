@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <button>Pedir una comisión</button>
+        <button id="hacer-pedido">Pedir una comisión</button>
         <h1>Comisiones de dibujo digital y tradicional</h1>
     <nav id="barra-de-navegacion">
         <a id="uno" href="#saludo">Saludo</a> |
@@ -27,7 +27,7 @@
     <div id="contenedor-de-tarjetas-tradicional">
     <div class="tarjeta">
         <p class="info">Tradicional (únicamente contorno)</p>
-        <p class="precios">1 dolar</p>
+        <p class="precios">1 dólar</p>
         <img src="./src/img/contorno-tradicional.jpeg" alt="Dibujo de personaje de anime, únicamente contorno">
     </div>
     <div class="tarjeta">
@@ -73,5 +73,19 @@
         </ol>
     </div>
     </div>
+<section class="cookie" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+        <div class="cookie__content container">
+            <p>
+            Este sitio utiliza cookies. Al continuar, aceptas su uso. <a href="./privacidad.html">Más información</a></p>
+            <div class="cookie__actions">
+            <button class="btn btn--ghost" id="cookieReject">Rechazar</button>
+            <button class="btn btn--primary" id="cookieAccept">Aceptar</button>
+            </div>
+        </div>
+</section>
+<script src="./src/js/main.js"></script>
+<footer>
+    © 2025 Naomi Hernández. Todos los derechos reservados.
+</footer>
 </body>
 </html>

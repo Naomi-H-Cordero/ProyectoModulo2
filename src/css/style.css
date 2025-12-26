@@ -41,11 +41,8 @@ h2{
     font-weight: 600;
 }
 button{
-    position:fixed;
     background-color:#9700dd;
     color:whitesmoke;
-    top:12px;
-    right:15px;
     font-size:medium;
     padding: 10px;
     border-radius:20px;
@@ -59,6 +56,10 @@ button:hover{
     color:#0f0611;
     font-size:small;
     border-radius: 40px;
+}
+#hacer-pedido{
+    position: fixed;
+    right: 15px;
 }
 .tarjeta{
     background-color: #9700dd;
@@ -124,4 +125,14 @@ img{
     display: flex;
     justify-content: center;
     align-content: center;
+}
+footer{
+    font-size: small;
+    z-index:1;
+}
+.cookie{
+    position:fixed; left:0; right:0; bottom:0;
+    background: whitesmoke;
+    z-index:1000;
+    color:#0f0611;
 }

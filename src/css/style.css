@@ -10,6 +10,15 @@ body {
     display: flex;
     position: sticky;
     top: 0px;
+    color:#0f0611;
+    align-items: center;
+    padding: 8px;
+    text-align: center;
+}
+#navbar-logo{
+    all:unset;
+    flex-grow: 2;
+    height: 2.8em;
 }
 #uno{
     flex-grow: 1;
@@ -35,13 +44,16 @@ h1{
 h2{
     text-align: center;
 }
+h3{
+    text-align: center;
+}
 #nombre{
     font-family:"Happy Monkey", system-ui, arial, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 3px;
     font-weight: 600;
 }
 button{
-    background-color:#9700dd;
+    background-color:#ff83ea;
     color:whitesmoke;
     font-size:medium;
     padding: 10px;

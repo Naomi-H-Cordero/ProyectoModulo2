@@ -11,8 +11,10 @@
 </head>
 <body>
     <header>
-        <button id="hacer-pedido">Pedir una comisión</button>
-        <h1>Comisiones de dibujo digital y tradicional</h1>
+        <a href="#formulario">
+            <button id="hacer-pedido">Pedir una comisión</button>
+        </a>
+    <h1>Comisiones de dibujo digital y tradicional</h1>
     <nav id="barra-de-navegacion">
         <a id="uno" href="#saludo">Saludo</a> |
         <a id="dos" href="#tradicional">Dibujo tradicional</a> |
@@ -20,6 +22,7 @@
         <a id="cuatro" href="#redes-sociales">Redes sociales y correo electrónico</a> |
     </nav>
     <br>
+    <main>
     </header>
     <p id="saludo">Hola, mi nombre es <span id="nombre">Naomi Hernández</span>. Bienvenidos a mi catálogo de dibujo tradicional y digital, donde dejo ejemplos de mi trabajo y maneras de contactarme para pedir una comisión.</p>
     <br>
@@ -36,8 +39,7 @@
         <img src="./src/img/tradicional.jpeg" alt="Dibujo a lapicero de personaje bebiendo de un popote">
     </div>
     </div>
-    <br>
-    <br>
+    <br><br>
     <h2 id="digital">Dibujo digital</h2>
     <div id="contenedor-de-tarjetas-digital">
     <div class="tarjeta">
@@ -60,9 +62,7 @@
         <img src="./src/img/poni-digital.jpg" alt="Dibujo digital de poni estilo caricatura">
     </div>
     </div>
-    <br>
-    <br>
-    <br>
+    <br><br><br>
     <div id="contenedor-tarjeta-redes">
     <div id="redes-sociales">
     <h3>Redes sociales y correo electrónico</h3>
@@ -73,6 +73,20 @@
         </ol>
     </div>
     </div>
+    <div id="formulario">
+      <form action="#" method="post">
+        <p>Escríbeme a mis redes sociales o a mi correo electrónico (se encuentran arriba), o envíame un mensaje para hacer tu pedido:</p>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="tel">Teléfono celular:</label><br>
+        <input type="tel" id="tel" name="tel" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <input type="submit" value="Enviar">
+        <br><br><br><br>
+      </form>
+    </div>
+</main>
 <section class="cookie" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
         <div class="cookie__content container">
             <p>

@@ -71,6 +71,7 @@ button:hover{
 }
 #hacer-pedido{
     position: fixed;
+    top: 50px;
     right: 15px;
 }
 .tarjeta{
@@ -98,6 +99,7 @@ img{
     font-size: larger;
     position: relative;
     left:28px;
+    flex-wrap: wrap;
 }
 .precios{
     color:whitesmoke;
@@ -147,4 +149,53 @@ footer{
     background: whitesmoke;
     z-index:1000;
     color:#0f0611;
+}
+@media (max-width:768px){
+    body{
+    font-size: medium;
+    }
+    #barra-de-navegacion{
+    background-color: whitesmoke;
+    display:flex;
+    position: sticky;
+    top: 0px;
+    color:#0f0611;
+    align-items: center;
+    padding: 8px;
+    text-align: center;
+     }
+    #contenedor-de-tarjetas-tradicional{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     }
+    h1{
+    all:unset;
+    text-align: center;
+    font-size: 1.65em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2px;
+    background-color: #c28ec9;
+     }
+    h3{
+    font-size: 1em;
+     }
+    .tarjeta{
+    width: 420px;
+    padding: 0px;
+     }
+    img{
+    width: 180px;
+    height:180px;
+    border:2px #0f0611 solid;
+    position: center;
+    position: relative;
+    left: 28px;
+     }
+    .info{
+    flex-wrap: wrap;
+    font-size: medium;
+    letter-spacing: 0.15px;
+     }
 }

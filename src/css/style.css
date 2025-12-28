@@ -32,14 +32,21 @@ body {
 #cuatro{
     flex-grow: 0;
 }
+#menu-hamburguesa{
+    display: none;
+}
+#menu-icon{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     font-weight: lighter;
     background-color: #ac7aa4;
-    width: 900px;
-    margin-inline: 200px;
+    width: fit-content
 }
 h2{
     text-align: center;
@@ -157,13 +164,68 @@ footer{
     #barra-de-navegacion{
     background-color: whitesmoke;
     display:flex;
-    position: sticky;
+    position: relative;
     top: 0px;
     color:#0f0611;
     align-items: center;
     padding: 8px;
     text-align: center;
-     }
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: max-content;
+    gap:10px;
+    }
+    #menu-links{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:0;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 6px;
+    }
+    #menu-hamburguesa:checked~#menu-links{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    }
+    #menu-hamburguesa:checked~#menu-links a{
+    display: block;
+    }
+    #menu-links a{
+    display: none;
+    padding: 8px 14px;
+    width: max-content;
+    }
+    #navbar-logo{
+    flex-grow: 0;
+    }
+    #menu-icon{
+    display: block;
+    font-size: 1.7rem;
+    cursor: pointer;
+    }
+    #barra-de-navegacion a{
+    display: none;
+    }
+    #menu-hamburguesa:checked~a{
+    display: block;
+    position: absolute;
+    top:100%;
+    left:0;
+    width:max-content;
+    background-color: whitesmoke;
+    padding: 10px 16px;
+    margin-top: 6px;
+    border-radius: 6px;
+    z-index: 100;
+    }
+    #menu-hamburguesa:checked~a+a{
+    margin-top: 6px;
+    }
+    #barra-de-navegacion a:not(:last-child){
+    border-bottom: 1px whitesmoke;
+    }
     #contenedor-de-tarjetas-tradicional{
     display: flex;
     flex-direction: row;
@@ -198,4 +260,7 @@ footer{
     font-size: medium;
     letter-spacing: 0.15px;
      }
+    #hacer-pedido{
+    display: none;
+    }
 }

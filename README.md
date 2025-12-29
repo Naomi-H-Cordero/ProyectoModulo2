@@ -1,1 +1,5 @@
 Proyecto del módulo 2 (Fundamentos del desarrollo web) del Course Frontend de Dev.F.
+Se trata de un catálogo de comisiones de dibujo tradicional y digital. 
+Esta página fue desarrollada con enfoque desktop first, con dos puntos de quiebre pensados para pantallas de menores dimensaiones (max-width:768px y max-width:480px).
+En la vista de escritorio (o cualquier pantalla a partir de los 769 pixeles de ancho), cuenta con una barra de navegación horizontal, que se visualiza como un "menú hamburguesa" en pantallas de 768 pixeles o menos y se despliega al presionar el botón ☰; con enlaces funcionales. Asimismo, contiene un botón fijo que lleva directamente a un formulario dentro de la página (el formulario no es funcional). El banner de cookies contiene botones funcionales de "aceptar" o "rechazar" y un enlace de "más información". Antes del formulario, se encuentra una tarjeta con enlaces a redes sociales y con un correo electrónico al que el posible cliente podría escribir en caso de estar interesado.
+Nota: Este sitio fue creado meramente como proyecto final del curso de Frontend de Dev F y NO se trata de la página de un emprendimiento real.

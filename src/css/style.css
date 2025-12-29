@@ -122,7 +122,7 @@ img{
     font-size: larger;
     position: relative;
     left:28px;
-    flex-wrap: wrap;
+    overflow-wrap: break-word;
 }
 .precios{
     color:whitesmoke;
@@ -192,6 +192,15 @@ footer{
     width: max-content;
     gap:10px;
     }
+    #hacer-pedido{
+    font-size: 0.8em;
+    width:fit-content;
+    position: fixed;
+    top: 310px;
+    right: 45px;
+    z-index: 300;
+    opacity:0.9;
+    }
     #menu-links{
     display: none;
     position: absolute;
@@ -219,7 +228,7 @@ footer{
     }
     #menu-icon{
     display: block;
-    font-size: 1.7rem;
+    font-size: 2rem;
     cursor: pointer;
     }
     #barra-de-navegacion a{
@@ -235,7 +244,7 @@ footer{
     padding: 10px 16px;
     margin-top: 6px;
     border-radius: 6px;
-    z-index: 100;
+    z-index: 1000;
     }
     #menu-hamburguesa:checked~a+a{
     margin-top: 6px;
@@ -272,7 +281,4 @@ footer{
     font-size: medium;
     letter-spacing: 0.15px;
      }
-    #hacer-pedido{
-    display: none;
-    }
 }

@@ -197,7 +197,7 @@ footer{
     width:fit-content;
     position: fixed;
     top: 310px;
-    right: 45px;
+    right: 5px;
     z-index: 300;
     opacity:0.9;
     }
@@ -281,4 +281,21 @@ footer{
     font-size: medium;
     letter-spacing: 0.15px;
      }
+}
+@media (max-width:480px){
+    h1{
+    font-size:1.6rem;
+    }
+    #hacer-pedido{
+    font-size: 0.8rem;
+    padding:8px 14 px;
+    position: fixed;
+    top: 190px;
+    right:5px;
+    z-index: 300;
+    opacity:0.9;
+    }
+    .info{
+    font-size: 0.7rem;
+    }
 }
